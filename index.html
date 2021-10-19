@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <form id="formEvent" autocomplete="off">
+
+        <div class="group">
+          <input
+            type="text"
+            class="input__control"
+            id="nombre"
+            name="nombre"
+            placeholder=" "
+          />
+          <label for="nombre" class="label__control" >Nombre</label>
+          <div class="errors">
+              <span id="Nombre-required"></span>
+          </div>
+        </div>
+        <div class="group">
+          <input
+            type="text"
+            class="input__control"
+            id="apellido"
+            name="apellido"
+            placeholder=" "
+          />
+          <label class="label__control">Apellido</label>
+          <div class="errors">
+            <span id="Apellido-required"></span>
+        </div>
+        </div>
+        <div class="group">
+          <input type="text" class="input__control" id="documento" name="documento" placeholder=" " />
+          <label class="label__control">DNI</label>
+          <div class="errors">
+            <span id="Documento-required"></span>
+          </div>
+        </div>
+        <div class="group">
+          <input
+            type="text"
+            class="input__control"
+            id="celular"
+            name="celular"
+            placeholder=" "
+          />
+          <label class="label__control">Celular</label>
+          <div class="errors">
+            <span id="Celular-required"></span>
+          </div>
+        </div>
+        <div class="group">
+          <input
+            type="text"
+            class="input__control"
+            id="correo"
+            name="correo"
+            placeholder=" "
+          />
+          <label class="label__control">Correo Electrónico</label>
+          <div class="errors">
+            <span id="Correo-required"></span>
+          </div>
+        </div>
+        <div class="group">
+          <input
+            type="text"
+            class="input__control"
+            id="empresa"
+            name="empresa"
+            placeholder=" "
+          />
+          <label class="label__control">Empresa aseguradora</label>
+          <div class="errors">
+            <span id="Iafas-required"></span>
+          </div>
+        </div>
+        <div class="group">
+          <input
+            type="text"
+            class="input__control"
+            id="clinica"
+            name="clinica"
+            placeholder=" "
+          />
+          <label class="label__control">Clinica de procedencia</label>
+          <div class="errors">
+            <span id="Clinica-required"></span>
+          </div>
+        </div>
+        <div class="group">
+          <button class="btn" id="buttonEnviar"/>
+          enviar
+        </button>
+        
+        </div>
+      </form>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
