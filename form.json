@@ -1,0 +1,34 @@
+{
+	"title":"Pediatría",
+	"form":[
+		{
+			"label":"Nombres",
+			"type":"text"		
+		},
+		{
+			"label":"Apellidos",
+			"type":"text"		
+		},
+		{
+			"label":"DNI",
+			"type":"text"		
+		},
+		{
+			"label":"Celular",
+			"type":"number"		
+		},
+		{
+			"label":"Correo electronico",
+			"type":"text"		
+		},
+		{
+			"label":"Empresa aseguradora",
+			"type":"text"		
+		},
+		{
+			"label":"Clinica de procedencia",
+			"type":"text"		
+		},
+	
+	]
+}
