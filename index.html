@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
+    <!-- <main>
       <form id="formEvent" autocomplete="off">
-
         <div class="group">
           <input
             type="text"
@@ -20,7 +19,7 @@
           />
           <label for="nombre" class="label__control" >Nombre</label>
           <div class="errors">
-              <span id="Nombre-required"></span>
+              <span id="nombre__required"></span>
           </div>
         </div>
         <div class="group">
@@ -33,14 +32,14 @@
           />
           <label class="label__control">Apellido</label>
           <div class="errors">
-            <span id="Apellido-required"></span>
+            <span id="apellido__required"></span>
         </div>
         </div>
         <div class="group">
           <input type="text" class="input__control" id="documento" name="documento" placeholder=" " />
           <label class="label__control">DNI</label>
           <div class="errors">
-            <span id="Documento-required"></span>
+            <span id="documento__required"></span>
           </div>
         </div>
         <div class="group">
@@ -53,7 +52,7 @@
           />
           <label class="label__control">Celular</label>
           <div class="errors">
-            <span id="Celular-required"></span>
+            <span id="celular__required"></span>
           </div>
         </div>
         <div class="group">
@@ -66,7 +65,7 @@
           />
           <label class="label__control">Correo Electrónico</label>
           <div class="errors">
-            <span id="Correo-required"></span>
+            <span id="correo__required"></span>
           </div>
         </div>
         <div class="group">
@@ -79,7 +78,7 @@
           />
           <label class="label__control">Empresa aseguradora</label>
           <div class="errors">
-            <span id="Iafas-required"></span>
+            <span id="empresa__required"></span>
           </div>
         </div>
         <div class="group">
@@ -92,17 +91,71 @@
           />
           <label class="label__control">Clinica de procedencia</label>
           <div class="errors">
-            <span id="Clinica-required"></span>
+            <span id="clinica__required"></span>
           </div>
         </div>
+        <div id="message__success"></div>
         <div class="group">
           <button class="btn" id="buttonEnviar"/>
-          enviar
-        </button>
-        
+            Enviar
+          </button>
         </div>
       </form>
-    </main>
+    </main>  -->
+    <article>
+      <div class="container">
+        <div class="container__card">
+          <div class="card">
+            <div class="card__img w__50">
+              <img
+                src="http://www.clinicasantaisabel.com/wp-content/uploads/2021/05/cambio-panales.png"
+                class="img__picture"
+              />
+            </div>
+            <div class="card__body w__50">
+              <div class="card__title">Pediatría</div>
+              <button type="button" class="btn__small">Ver mas</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img w__50">
+              <img
+                src="http://www.clinicasantaisabel.com/wp-content/uploads/2021/08/cambio-panales.jpg"
+                class="img__picture"
+              />
+            </div>
+            <div class="card__body w__50">
+              <div class="card__title">Ginecología</div>
+              <button type="button" class="btn__small">Ver mas</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img w__50">
+              <img
+                src="http://www.clinicasantaisabel.com/wp-content/uploads/2021/08/cambio-panales.jpg"
+                class="img__picture"
+              />
+            </div>
+            <div class="card__body w__50">
+              <div class="card__title">Obstetricia</div>
+              <button type="button" class="btn__small">Ver mas</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__img w__50">
+              <img
+                src="http://www.clinicasantaisabel.com/wp-content/uploads/2021/08/cambio-panales.jpg"
+                class="img__picture"
+              />
+            </div>
+            <div class="card__body w__50">
+              <div class="card__title">Nutrición</div>
+              <button type="button" class="btn__small">Ver mas</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="

@@ -37,8 +37,8 @@ if (empty($_REQUEST['correo'])) {
     $errors['correo'] = 'Correo is required.';
 }
 
-if (empty($_REQUEST['iafas'])) {
-    $errors['iafas'] = 'Iafas is required.';
+if (empty($_REQUEST['empresa'])) {
+    $errors['empresa'] = 'Empresa is required.';
 }
 
 if (empty($_REQUEST['clinica'])) {
@@ -51,13 +51,13 @@ if (!empty($errors)) {
 } else {
     $data['success'] = true;
     $data['message'] = 'Success!';
+    
+    $SQL = "INSERT INTO eventos (nombres,apellidos,documento,celular,correo,empresa,clinica) 
+        VALUES ('$nombre','$apellido','$documento','$celular','$correo','$iafas','$clinica')";
+    pg_exec($SQL);
 }
 
 echo json_encode($data);
 
-// $SQL = "INSERT INTO eventos (nombres,apellidos,documento,celular,correo,empresa,clinica) 
-//         VALUES ('$nombre','$apellido','$documento','$celular','$correo','$iafas','$clinica')";
-
-// pg_exec($SQL);
 
 ?>
